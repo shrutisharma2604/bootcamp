@@ -1,0 +1,122 @@
+
+p{
+  color:#323232;
+  padding-top: 20px;
+  padding-left:10px;
+}
+h3{
+text-align: center;
+padding-top:60px;
+color: #fff;
+}
+h2{
+  margin-left: 75px;
+  color:#fff;
+  padding-top: 20px;
+}
+.nav {
+    background-color: #2a2a2a;
+    margin-left: 80px;
+    height: 25px;
+    width: 1070px;
+}
+.nav a{
+  margin-left: 75px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  padding-top: 10px;
+}
+#top{
+  background-color: #fff;
+      margin: 0px 20px 0px 20px;
+}
+.top-div {
+    height: 100px;
+    background-color: #323232;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.middle-div {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 550px;
+    background-color: #fff;
+}
+.inner-2 {
+    height: 75px;
+    background-color: #ccc;
+    margin-left:60px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.inner-1 {
+    height: 200px;
+    background-color: #323232;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.inner-3 {
+    height: 207px;
+    background-color: #fff;
+    
+    display: flex;
+}
+.div1 {
+    height: 196px;
+    background-color: #323232;
+    width: 18%;
+    margin-top: 10px;
+    margin-right:70px;
+    margin-left: 60px;
+    text-align: center;
+}
+.div2 {
+    height: 196px;
+    background-color: #323232;
+    width: 18%;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.div3 {
+    height: 196px;
+    background-color: #323232;
+    width: 18%;
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.div4 {
+    height: 196px;
+    background-color: #323232;
+    width: 18%;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.mbottom-div {
+    height: 25px;
+    background-color: #222222;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.container {
+    background: #2f2f2f;
+}
+.white {
+    height: 20px;
+    background: #fff;
+}
+.white1 {
+    height: 5px;
+    background: #2f2f2f;
+}
+h4{
+  text-align: center;
+  padding-top: 60px;
+  color: #fff;
+}
+h5{
+  text-align: center;
+  color: #fff;
+  padding-top: 5PX;
+}
