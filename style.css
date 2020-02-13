@@ -1,6 +1,6 @@
 
 p{
-  color:#323232;
+  color:#fff;
   padding-top: 20px;
   padding-left:10px;
 }
@@ -18,7 +18,7 @@ h2{
     background-color: #2a2a2a;
     margin-left: 80px;
     height: 25px;
-    width: 1070px;
+    margin-right: 79px;
 }
 .nav a{
   margin-left: 75px;
@@ -116,7 +116,7 @@ h4{
   color: #fff;
 }
 h5{
-  text-align: center;
   color: #fff;
   padding-top: 5PX;
+  padding-left: 30px;
 }
