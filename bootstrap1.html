@@ -2,25 +2,20 @@
 <meta charset="utf-8">
 <html>
 <head>
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container-fluid" style="border:2px solid;border-color:#5bbd9d;">
+<div class="container-fluid" style="border:2px solid;border-color:#5bbd9d;width:800px;">
 <div class="row">
 	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="color: #5bbd9d;font-size: 20px;">TO THE NEW</div>
 	<div style="color: #5bbd9d;" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Home</div>
 	<div style="color: #5bbd9d;" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Quick Help</div></br><hr>
 </div>
 <div class="row">
-	<nav style="background-color:#bcc3ca;border:2px solid;border-radius: 3px 3px 3px 3px;border-color:#bcc3ca;">
+	<nav style="background-color:#bcc3ca;border:2px solid;border-radius: 3px 3px 3px 3px;border-color:#bcc3ca;margin-left: 170px;margin-">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="navbar-header">
@@ -69,7 +64,10 @@
 
   				 	<div class="form-group">
      			 	<label for="Attachments">Attachments:</label>
-  				 		<input type="File" value="Choose File" class="form-control">
+  				 	    <div class="custom-file mb-3">
+     					 <input type="file" class="custom-file-input" id="customFile" name="filename">
+     					 <label class="custom-file-label" for="customFile">No File Selected</label>
+    					</div>
   					</div>
 
   				 	<div class="form-group">
