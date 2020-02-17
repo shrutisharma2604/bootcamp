@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid" style="border:2px solid;border-color:#5bbd9d;width:800px;">
+<div class="row">
+	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="color: #5bbd9d;font-size: 20px;">TO THE NEW</div>
+	<div style="color: #5bbd9d;" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Home</div>
+	<div style="color: #5bbd9d;" class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Quick Help</div></br><hr>
+</div>
+<div class="row">
+	<nav style="background-color:#bcc3ca;border:2px solid;border-radius: 3px 3px 3px 3px;border-color:#bcc3ca;margin-left: 170px;margin-">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="navbar-header">
+     	 	<a class="navbar-brand" href="#" style="color: #fff;">Bug Report</a>                                       
+   	 		</div>
+   	 	</div>
+   	 	<div class="row">
+			<div class="col-lg-12" style="background-color:#fff;">     
+				 <form action="/action_page.php">
+   					<div class="form-group">
+     			 	<label for="title">Title:*</label>
+     				<input type="text" class="form-control">
+  				 	</div>    
+
+  				 	<div class="form-group">
+     			 	<label for="Description">Description:*</label>
+     				<textarea class="form-control"></textarea>
+  				 	</div>    
+
+  				 	<div class="form-group">
+     			 	<label for="Opearting System">Opearting System:</label>
+     			 	<select class="form-control" style="color:#fff;background-color: #5bbd9d;border-radius: 5px 5px 5px 5px;"><option value="Windows XP">Windows XP</option></select>
+  				 	</div>    
+
+
+  				 	<div class="form-group">
+     			 	<label for="Product">Product:*</label>
+     				<select class="form-control" style="color:#fff;background-color: #5bbd9d;border-radius: 5px 5px 5px 5px;"><option value="Formoid">Formoid</option></select>
+  				 	</div>    
+
+  				 	<div class="form-group">
+     			 	<label for="Version">Version:*</label>
+     				<input type="text" class="form-control" style="width: 120px;">
+  				 	</div>    
+
+  				 	<div class="form-group">
+     			 	<label for="License">License:</label>
+     				<div class="form-group"><label><input type="radio" value="Free" name="optradio" checked>Free</label>
+     				<label><input type="radio" value="Business" name="optradio" checked style="margin-left: 200px;">Business</label></div>
+  				 	</div>
+
+  					<div class="form-group">
+     			 	<label for="Serverity">Serverity:</label>
+     					<select class="form-control" style="color: #fff;background-color: #5bbd9d;border-radius: 5px 5px 5px 5px;"><option value="Critical">Critical</option></select>
+  				 	</div>   
+
+  				 	<div class="form-group">
+     			 	<label for="Attachments">Attachments:</label>
+  				 	    <div class="custom-file mb-3">
+     					 <input type="file" class="custom-file-input" id="customFile" name="filename">
+     					 <label class="custom-file-label" for="customFile">No File Selected</label>
+    					</div>
+  					</div>
+
+  				 	<div class="form-group">
+  				 	<div style="border:2px solid;background-color: #edeff1;border-color: #edeff1;text-align: right;">
+     				<input type="submit" value="submit" style="background-color:#5bbd9d;color:#fff;border-radius: 8px 8px 8px 8px;"></div>
+  				 	</div>  
+  				 </form>                            
+   	 		</div>
+   	 	</div>
+   	 </div>
+	</nav>
+</div>
+</div>
+</body>
+</html>
