@@ -21,7 +21,7 @@ public class Question1{
     public static void main(String[] args) {
         VolatileEx obj=new VolatileEx();
         obj.start();
-        new Scanner(System.in).nextLine();
+        new Scanner(System.in).next();
         obj.Change();
     }
 }
