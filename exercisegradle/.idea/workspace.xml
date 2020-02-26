@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.exercisegradle [wrapper]">
+  <component name="RunManager" selected="Gradle.exercisegradle [dependencies]">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="exercisegradle.main" />
@@ -135,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.exercisegradle [wrapper]" />
         <item itemvalue="Gradle.exercisegradle [dependencies]" />
         <item itemvalue="Gradle.exercisegradle [jar]" />
+        <item itemvalue="Gradle.exercisegradle [wrapper]" />
         <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
@@ -160,21 +160,21 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582699050168" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1582712140469">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1582715794039">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582712140469" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1582712140467">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582715794039" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1582715794037">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582712140467" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1582712140466">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582715794037" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1582715794036">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582712140466" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1582712140468">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582715794036" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1582715794038">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582712140468" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582715794038" />
   </component>
 </project>
