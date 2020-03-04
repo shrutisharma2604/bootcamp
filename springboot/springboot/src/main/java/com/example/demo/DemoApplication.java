@@ -23,6 +23,10 @@ public class DemoApplication {
 
 		ExecuteService executeService=context.getBean(ExecuteService.class);
 		executeService.PrimaryEx();
+
+		DemoService1 demoService1= new DemoService1();
+		demoService1.createDemo();
+
 	}
 
 }
