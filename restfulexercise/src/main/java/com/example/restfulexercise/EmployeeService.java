@@ -1,8 +1,7 @@
 package com.example.restfulexercise;
-
 import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 @Component
 public class EmployeeService {
@@ -34,5 +33,28 @@ public class EmployeeService {
             }
         }
         return null;
+    }
+    public Employee deleteById(int id){
+        Iterator<Employee> iterator=list.iterator();
+        while (iterator.hasNext()){
+            Employee employee=iterator.next();
+            if (employee.getId()==id){
+                iterator.remove();
+                return employee;
+            }
+        }
+        return null;
+    }
+
+    public List<Employee> updateEmp(Employee employee){
+        Iterator iterator=list.iterator();
+        Employee employee1=(Employee) iterator.next();
+        while (iterator.hasNext()){
+            if(employee.getId()==employee1.getId()){
+                list.remove(employee1);
+            }
+        }
+        list.add(employee);
+        return list;
     }
 }

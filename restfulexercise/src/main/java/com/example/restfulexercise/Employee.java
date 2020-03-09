@@ -1,7 +1,11 @@
 package com.example.restfulexercise;
 
+import javax.validation.constraints.Size;
+
 public class Employee {
     private Integer id;
+
+    @Size(min = 2)
     private String name;
     private Integer age;
 
