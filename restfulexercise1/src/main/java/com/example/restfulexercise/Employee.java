@@ -1,7 +1,14 @@
 package com.example.restfulexercise;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+import javax.validation.constraints.Size;
+@ApiModel(description = "This is the employee class")
 public class Employee {
     private Integer id;
+    @ApiModelProperty(notes = "This is the name of employee")
+    @Size(min = 2)
     private String name;
     private Integer age;
 
